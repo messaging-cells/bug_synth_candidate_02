@@ -1,0 +1,10 @@
+
+### Main FPGA Clock
+set_io i_clk 15
+
+### LED Pins:
+set_io o_LED_1 56
+set_io o_LED_2 57
+set_io o_LED_3 59
+set_io o_LED_4 60
+
