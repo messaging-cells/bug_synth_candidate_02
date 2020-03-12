@@ -19,7 +19,7 @@ module pakout
 	
 	`NS_DECLARE_IN_CHNL(rcv0)
 
-	input wire has_err
+	output wire has_err
 );
 	// inp0 regs
 	reg [0:0] rgi0_ack = `NS_OFF;
